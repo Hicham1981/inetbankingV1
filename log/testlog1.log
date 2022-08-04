@@ -478,3 +478,14 @@
 2022-08-04 19:51:30,669 [main] INFO ebanking - password provided
 2022-08-04 19:51:41,777 [main] INFO ebanking - User name is provided
 2022-08-04 19:51:42,020 [main] INFO ebanking - Passsword is provided
+2022-08-04 20:18:14,158 [main] INFO ebanking - URL is opened
+2022-08-04 20:18:14,336 [main] INFO ebanking - Entered username
+2022-08-04 20:18:14,619 [main] INFO ebanking - Entered password
+2022-08-04 20:18:16,690 [main] INFO ebanking - Login test passed
+2022-08-04 20:18:23,534 [main] INFO ebanking - user name provided
+2022-08-04 20:18:23,845 [main] INFO ebanking - password provided
+2022-08-04 20:18:29,946 [main] INFO ebanking - user name provided
+2022-08-04 20:18:30,084 [main] INFO ebanking - password provided
+2022-08-04 20:18:40,867 [main] INFO ebanking - User name is provided
+2022-08-04 20:18:41,131 [main] INFO ebanking - Passsword is provided
+2022-08-04 20:18:47,727 [main] INFO ebanking - providing customer details....
