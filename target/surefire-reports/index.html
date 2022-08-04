@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-InetBankingV1" class="navigator-link ">
-                    <span>C:\Users\devops\inetbankingV1\Testng.xml</span>
+                    <span>C:\Users\devops\inetbankingV1-V\Testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 4 failed,   </span>
+                    <span class="method-stats">4 methods, 3 failed,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-InetBankingV1" class="show-methods failed suite-InetBankingV1"> (show)</a> <!-- show-methods failed suite-InetBankingV1 -->
                     </span>
                     <div class="method-list-content failed suite-InetBankingV1">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_AddCustomerTest_003" class="method navigator-link" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_LoginDDT_002" class="method navigator-link" hash-for-method="loginDDT(mngr424650, puvUter)">loginDDT(mngr424650, puvUter)</a> <!-- method navigator-link -->
@@ -121,6 +116,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-InetBankingV1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-InetBankingV1" class="hide-methods skipped suite-InetBankingV1"> (hide)</a> <!-- hide-methods skipped suite-InetBankingV1 -->
+                      <a href="#" panel-name="suite-InetBankingV1" class="show-methods skipped suite-InetBankingV1"> (show)</a> <!-- show-methods skipped suite-InetBankingV1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-InetBankingV1">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_AddCustomerTest_003" class="method navigator-link" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-InetBankingV1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -143,14 +152,16 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=103.0.5060.134): User or Password is not valid
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;pcibra&apos;, ip: &apos;172.28.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10899c34b9b4a53c8fcde5b7c2e46efa
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ae4ccd14a348de0f62cbc91c198b2f5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -158,7 +169,7 @@ Session ID: 10899c34b9b4a53c8fcde5b7c2e46efa
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
 	at com.inetbanking.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:31)
-... Removed 28 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -176,15 +187,17 @@ Session ID: 10899c34b9b4a53c8fcde5b7c2e46efa
                   </a> <!-- loginDDT(mngr424650, puvUter) -->
                   <span class="method-name">loginDDT</span>
                   <span class="parameters">(mngr424650, puvUter)</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=103.0.5060.134): User or Password is not valid
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.134)
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;pcibra&apos;, ip: &apos;172.28.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3592776e7d88765e0512330dd2bbe77a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55774}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d98f5265630e39b264f1a735cf55fb20
 *** Element info: {Using=name, value=uid}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -198,7 +211,7 @@ Session ID: 3592776e7d88765e0512330dd2bbe77a
 	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
 	at com.inetbanking.pageObjects.LoginPage.setUserName(LoginPage.java:40)
 	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:20)
-... Removed 28 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -208,35 +221,39 @@ Session ID: 3592776e7d88765e0512330dd2bbe77a
                   </a> <!-- loginDDT(mngr424650, puvUter) -->
                   <span class="method-name">loginDDT</span>
                   <span class="parameters">(mngr424650, puvUter)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from unknown error: unexpected command response
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=103.0.5060.134)
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;pcibra&apos;, ip: &apos;172.28.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3592776e7d88765e0512330dd2bbe77a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55774}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d98f5265630e39b264f1a735cf55fb20
+*** Element info: {Using=name, value=uid}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.inetbanking.pageObjects.LoginPage.clickSubmit(LoginPage.java:51)
-	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:24)
-... Removed 36 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at com.inetbanking.pageObjects.LoginPage.setUserName(LoginPage.java:40)
+	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:20)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-InetBankingV1-class-failed -->
-          <div class="suite-InetBankingV1-class-failed">
+          <div class="suite-InetBankingV1-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -245,38 +262,32 @@ Session ID: 3592776e7d88765e0512330dd2bbe77a
                   <a name="addNewCustomer">
                   </a> <!-- addNewCustomer -->
                   <span class="method-name">addNewCustomer</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=103.0.5060.134): User or Password is not valid
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.134)
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;pcibra&apos;, ip: &apos;172.28.80.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f84b7745dd7b5ed1367794665e360a1c
-*** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibra\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e9086b2a1d715fcb2d5c5c79d222c4a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.inetbanking.pageObjects.AddCustomerPage.clickAddNewCustomer(AddCustomerPage.java:68)
-	at com.inetbanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:28)
-... Removed 28 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:63)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-InetBankingV1-class-failed -->
+          </div> <!-- suite-InetBankingV1-class-skipped -->
         </div> <!-- panel InetBankingV1 -->
         <div panel-name="test-xml-InetBankingV1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\devops\inetbankingV1\Testng.xml</span>
+            <span class="header-content">C:\Users\devops\inetbankingV1-V\Testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -333,26 +344,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addNewCustomer')
-data.setCell(0, 2, 'com.inetbanking.testCases.TC_AddCustomerTest_003')
-data.setCell(0, 3, 10350);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.inetbanking.testCases.TC_LoginTest_001')
+data.setCell(0, 3, 95691);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.inetbanking.testCases.TC_LoginTest_001')
-data.setCell(1, 3, 8398);
+data.setCell(1, 1, 'loginDDT')
+data.setCell(1, 2, 'com.inetbanking.testCases.TC_LoginDDT_002')
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginDDT')
 data.setCell(2, 2, 'com.inetbanking.testCases.TC_LoginDDT_002')
-data.setCell(2, 3, 6209);
+data.setCell(2, 3, 14);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginDDT')
-data.setCell(3, 2, 'com.inetbanking.testCases.TC_LoginDDT_002')
-data.setCell(3, 3, 18);
+data.setCell(3, 1, 'addNewCustomer')
+data.setCell(3, 2, 'com.inetbanking.testCases.TC_AddCustomerTest_003')
+data.setCell(3, 3, 0);
 window.suiteTableData['InetBankingV1']= { tableData: data, tableDiv: 'times-div-InetBankingV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-InetBankingV1">
               </div> <!-- times-div-InetBankingV1 -->
             </div> <!-- times-div -->
@@ -378,6 +389,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addNewCustomer</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
@@ -387,52 +405,44 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">81603 ms</span>
+                <span class="method-start">79620 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90063 ms</span>
+                <span class="method-start">175350 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">90894 ms</span>
+                <span class="method-start">176020 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr424650, puvUter)</span>
-                <span class="method-start">168642 ms</span>
+                <span class="method-start">217160 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr424650, puvUter)</span>
-                <span class="method-start">174856 ms</span>
+                <span class="method-start">217179 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">174874 ms</span>
+                <span class="method-start">217194 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">175639 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">addNewCustomer</span>
-                <span class="method-start">236084 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">246437 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">217797 ms</span>
+              </div> <!-- configuration-class before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -465,3 +465,6 @@
 2022-08-04 17:03:07,929 [main] INFO ebanking - password provided
 2022-08-04 17:04:15,058 [main] INFO ebanking - User name is provided
 2022-08-04 17:04:15,423 [main] INFO ebanking - Passsword is provided
+2022-08-04 19:32:25,806 [main] INFO ebanking - URL is opened
+2022-08-04 19:32:26,010 [main] INFO ebanking - Entered username
+2022-08-04 19:32:26,139 [main] INFO ebanking - Entered password
