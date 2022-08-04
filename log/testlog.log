@@ -468,3 +468,13 @@
 2022-08-04 19:32:25,806 - ebanking -INFO - URL is opened
 2022-08-04 19:32:26,010 - ebanking -INFO - Entered username
 2022-08-04 19:32:26,139 - ebanking -INFO - Entered password
+2022-08-04 19:51:13,942 - ebanking -INFO - URL is opened
+2022-08-04 19:51:14,299 - ebanking -INFO - Entered username
+2022-08-04 19:51:14,615 - ebanking -INFO - Entered password
+2022-08-04 19:51:16,870 - ebanking -INFO - Login test passed
+2022-08-04 19:51:24,094 - ebanking -INFO - user name provided
+2022-08-04 19:51:24,248 - ebanking -INFO - password provided
+2022-08-04 19:51:30,584 - ebanking -INFO - user name provided
+2022-08-04 19:51:30,669 - ebanking -INFO - password provided
+2022-08-04 19:51:41,777 - ebanking -INFO - User name is provided
+2022-08-04 19:51:42,020 - ebanking -INFO - Passsword is provided
