@@ -530,3 +530,23 @@
 2022-08-05 13:46:12,411 - ebanking -INFO - password provided
 2022-08-05 13:46:20,032 - ebanking -INFO - user name provided
 2022-08-05 13:46:20,155 - ebanking -INFO - password provided
+2022-08-05 21:17:24,110 - ebanking -INFO - URL is opened
+2022-08-05 21:17:24,359 - ebanking -INFO - Entered username
+2022-08-05 21:17:24,506 - ebanking -INFO - Entered password
+2022-08-05 21:17:38,328 - ebanking -INFO - User name is provided
+2022-08-05 21:17:38,497 - ebanking -INFO - Passsword is provided
+2022-08-05 21:25:03,004 - ebanking -INFO - URL is opened
+2022-08-05 21:25:03,378 - ebanking -INFO - Entered username
+2022-08-05 21:25:03,567 - ebanking -INFO - Entered password
+2022-08-05 21:25:06,361 - ebanking -INFO - Login test passed
+2022-08-05 21:25:12,589 - ebanking -INFO - User name is provided
+2022-08-05 21:25:12,992 - ebanking -INFO - Passsword is provided
+2022-08-05 21:28:03,377 - ebanking -INFO - URL is opened
+2022-08-05 21:28:03,787 - ebanking -INFO - Entered username
+2022-08-05 21:28:04,037 - ebanking -INFO - Entered password
+2022-08-05 21:28:06,139 - ebanking -INFO - Login test passed
+2022-08-05 21:28:12,257 - ebanking -INFO - User name is provided
+2022-08-05 21:28:12,724 - ebanking -INFO - Passsword is provided
+2022-08-05 21:28:18,294 - ebanking -INFO - providing customer details....
+2022-08-05 21:28:36,649 - ebanking -INFO - validation started....
+2022-08-05 21:28:36,746 - ebanking -INFO - test case passed....

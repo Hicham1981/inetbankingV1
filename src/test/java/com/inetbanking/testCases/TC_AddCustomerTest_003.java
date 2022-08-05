@@ -35,7 +35,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		addcust.custdob("10","10","1985");
 		Thread.sleep(5000);
 		addcust.custaddress("INDIA");
-		addcust.custcity("HYD");
+		addcust.custcity("HYD12");
 		addcust.custstate("AP");
 		addcust.custpinno("5000074");
 		addcust.custtelephoneno("987890091");
