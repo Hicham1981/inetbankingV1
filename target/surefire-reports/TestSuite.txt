@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.454 sec <<< FAILURE! - in TestSuite
-loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 6.021 sec  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.261 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 6.43 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -10,19 +10,11 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.assertTrue(Assert.java:54)
 	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:32)
 
-loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 5.961 sec  <<< FAILURE!
+loginDDT(com.inetbanking.testCases.TC_LoginDDT_002)  Time elapsed: 5.568 sec  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
 	at com.inetbanking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:32)
-
-addNewCustomer(com.inetbanking.testCases.TC_AddCustomerTest_003)  Time elapsed: 14.637 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at java.base/java.lang.reflect.Method.invoke(Method.java:559)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.AddCustomerPage.custName(AddCustomerPage.java:73)
-	at com.inetbanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:33)
 

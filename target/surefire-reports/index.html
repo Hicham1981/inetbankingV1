@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-InetBankingV1" class="show-methods failed suite-InetBankingV1"> (show)</a> <!-- show-methods failed suite-InetBankingV1 -->
                     </span>
                     <div class="method-list-content failed suite-InetBankingV1">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_AddCustomerTest_003" class="method navigator-link" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_LoginDDT_002" class="method navigator-link" hash-for-method="loginDDT(mngr424650, puvUter)">loginDDT(mngr424650, puvUter)</a> <!-- method navigator-link -->
@@ -124,6 +119,11 @@
                       <a href="#" panel-name="suite-InetBankingV1" class="show-methods passed suite-InetBankingV1"> (show)</a> <!-- show-methods passed suite-InetBankingV1 -->
                     </span>
                     <div class="method-list-content passed suite-InetBankingV1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_AddCustomerTest_003" class="method navigator-link" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-InetBankingV1" title="com.inetbanking.testCases.TC_LoginTest_001" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
@@ -173,28 +173,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-InetBankingV1-class-failed -->
-          <div class="suite-InetBankingV1-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addNewCustomer">
-                  </a> <!-- addNewCustomer -->
-                  <span class="method-name">addNewCustomer</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.AddCustomerPage.custName(AddCustomerPage.java:73)
-	at com.inetbanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:33)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-InetBankingV1-class-failed -->
           <div class="suite-InetBankingV1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -206,6 +184,21 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV1-class-passed -->
+          <div class="suite-InetBankingV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewCustomer">
+                  </a> <!-- addNewCustomer -->
+                  <span class="method-name">addNewCustomer</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,24 +265,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCustomer')
 data.setCell(0, 2, 'com.inetbanking.testCases.TC_AddCustomerTest_003')
-data.setCell(0, 3, 14638);
+data.setCell(0, 3, 32431);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginDDT')
 data.setCell(1, 2, 'com.inetbanking.testCases.TC_LoginDDT_002')
-data.setCell(1, 3, 6013);
+data.setCell(1, 3, 6427);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginDDT')
 data.setCell(2, 2, 'com.inetbanking.testCases.TC_LoginDDT_002')
-data.setCell(2, 3, 5960);
+data.setCell(2, 3, 5568);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginTest')
 data.setCell(3, 2, 'com.inetbanking.testCases.TC_LoginTest_001')
-data.setCell(3, 3, 2534);
+data.setCell(3, 3, 2938);
 window.suiteTableData['InetBankingV1']= { tableData: data, tableDiv: 'times-div-InetBankingV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-InetBankingV1">
               </div> <!-- times-div-InetBankingV1 -->
             </div> <!-- times-div -->
@@ -322,51 +315,49 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">5823 ms</span>
+                <span class="method-start">6144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8372 ms</span>
+                <span class="method-start">9096 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inetbanking.testCases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">9082 ms</span>
+                <span class="method-start">9813 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr424650, puvUter)</span>
-                <span class="method-start">14955 ms</span>
+                <span class="method-start">16050 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginDDT(mngr424650, puvUter)</span>
-                <span class="method-start">20980 ms</span>
+                <span class="method-start">22483 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26942 ms</span>
+                <span class="method-start">28052 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inetbanking.testCases.TC_AddCustomerTest_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">27598 ms</span>
+                <span class="method-start">28740 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addNewCustomer</span>
-                <span class="method-start">32418 ms</span>
+                <span class="method-start">33242 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47056 ms</span>
+                <span class="method-start">65673 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

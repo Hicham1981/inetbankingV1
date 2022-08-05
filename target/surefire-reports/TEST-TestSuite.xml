@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="23.193" tests="4" errors="0" skipped="0" failures="3">
+<testsuite name="TestSuite" time="41.799" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:/Users/Ibra/Downloads/apache-maven-3.8.6-bin/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="2.535"/>
-  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="6.021">
+  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="2.939"/>
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="6.43">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -76,15 +76,15 @@
     <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- user name provided
  INFO [main] (TC_LoginDDT_002.java:23)- password provided
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 27281
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 47173
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 04, 2022 8:18:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 05, 2022 11:25:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="5.961">
+  <testcase name="loginDDT" classname="com.inetbanking.testCases.TC_LoginDDT_002" time="5.568">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -96,24 +96,5 @@ INFO: Detected dialect: W3C
  INFO [main] (TC_LoginDDT_002.java:23)- password provided
 ]]></system-out>
   </testcase>
-  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="14.637">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at java.base/java.lang.reflect.Method.invoke(Method.java:559)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.AddCustomerPage.custName(AddCustomerPage.java:73)
-	at com.inetbanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:33)
-</failure>
-    <system-out><![CDATA[ INFO [main] (TC_AddCustomerTest_003.java:19)- User name is provided
- INFO [main] (TC_AddCustomerTest_003.java:21)- Passsword is provided
- INFO [main] (TC_AddCustomerTest_003.java:30)- providing customer details....
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 24422
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 04, 2022 8:18:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="32.43"/>
 </testsuite>
